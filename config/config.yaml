@@ -1,0 +1,22 @@
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  external_path: "data/external/"
+  
+model:
+  save_path: "models/"
+  random_state: 42
+  
+training:
+  test_size: 0.2
+  validation_size: 0.2
+  sampling_method: "smote"
+  cv_folds: 5
+  
+api:
+  host: "0.0.0.0"
+  port: 5000
+  
+dashboard:
+  host: "0.0.0.0"
+  port: 8501

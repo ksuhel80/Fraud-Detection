@@ -1,0 +1,101 @@
+merchant_id,name,category,risk_score,address,city,state,zip_code
+1,Patel Inc,Healthcare,0.22325149994850918,"029 Reeves Harbor, North Courtney, SD 25370",West Christian,MP,96367
+2,Shepherd LLC,Retail,0.3231300146192633,"7299 Jeffrey Harbors, Jonathanbury, PA 30047",Micheleburgh,MO,40078
+3,"Christensen, Schultz and White",Retail,0.16380511014407573,"460 Timothy Shore Suite 179, Medinaport, CT 92623",East Timothymouth,MA,61690
+4,"Ingram, Bryant and Miller",Healthcare,0.1000844474944457,"162 Susan Turnpike Suite 542, Port Roberta, FM 34711",South Janetside,OK,15744
+5,Edwards-Medina,Travel,0.1198942265847261,"8649 West Pine, Port Christinaton, ID 09521",Port Phillipside,CO,91284
+6,Espinoza and Sons,Food,0.0,"0535 Suzanne Plaza, Matthewbury, IA 55604",North Kathryn,SD,21540
+7,Perez LLC,Food,0.0,"727 Scott Pines, Port Lisaland, NY 19849",Barbaraberg,MP,04957
+8,"Lopez, Jimenez and Morales",Food,0.0,"Unit 3664 Box 3109, DPO AA 55174",Roachfort,NM,68306
+9,"James, Sheppard and Richardson",Healthcare,0.033185618141521045,"551 Becky Summit, Jessicastad, TN 24679",West Megan,NY,89933
+10,Snyder PLC,Retail,0.05279094223028727,"1406 Calvin Valleys Suite 196, Lake Thomasfurt, SC 21367",Lake Elijahhaven,SD,62506
+11,Thompson Ltd,Healthcare,0.0,"307 Johnson Inlet Suite 700, West Steve, OR 79436",North Brucefort,ID,49258
+12,"Bryant, Scott and Hill",Healthcare,0.12479102561175338,"23623 Salazar Forks, North Bradley, MS 35318",Williamton,MS,61596
+13,Schmidt Inc,Services,0.04272569742601934,"1710 Price Burg, Port Davidfurt, MN 09322",East Kennethton,OH,79350
+14,Hubbard Ltd,Retail,0.12392468641111495,"20594 Brett Greens Apt. 270, South Jonport, IN 23956",Anthonyview,DC,55043
+15,Moore Ltd,Services,0.3574082669749974,"6969 Joseph Neck Apt. 842, Lawsonfort, HI 58369",Lake Amy,GU,15693
+16,Dominguez and Sons,Entertainment,0.15806154084135765,"443 Anderson Rue Apt. 376, Jamietown, MI 02137",Scottchester,MP,95724
+17,Brown Inc,Retail,0.0,"9781 Le Ford Suite 350, West Nancyview, WV 73379",Gibsonshire,HI,21846
+18,Benson-Ramirez,Retail,0.07139957781198893,"272 Jimmy Way Apt. 006, Frankmouth, WA 81916",Sellersland,AL,93815
+19,"Baldwin, Villa and Mckinney",Retail,0.21009596349985712,"2634 Andrea Gardens, Port Chadstad, WA 01962",North Tiffany,OH,44837
+20,"Cohen, Chen and Velasquez",Food,0.2458347454220594,"73945 Mcintyre Plain, Brianfurt, NJ 20985",Port Stephanie,WA,40934
+21,Garcia-Beard,Food,0.0,"402 Hector Fall Apt. 478, Scottview, ME 11279",South Mark,PW,83360
+22,Chandler-Hall,Services,0.19966992232365216,"PSC 6508, Box 9053, APO AP 73731",Hayesport,MI,81053
+23,Scott Ltd,Services,0.10346895432199466,"34946 Marcus Flat, Lake Jamesshire, OK 67667",Brianshire,TX,64086
+24,Jackson LLC,Retail,0.08940516456958644,"8919 Brown Mission, North Leslie, IA 06315",New Anthony,GA,90569
+25,"Flores, Myers and Rodgers",Services,0.41443433470170343,"469 Timothy Ways Suite 839, West Annemouth, SC 29526",Transtad,PA,43578
+26,"Vega, Guerrero and Byrd",Food,0.0,"63554 Julie Plaza, Martinport, WV 05425",Mirandaland,PR,90143
+27,Mcdonald and Sons,Healthcare,0.07537396614945735,"76906 Kyle Vista Apt. 210, Keithport, CO 61267",East Joseph,ND,57744
+28,Wang-Marshall,Healthcare,0.09676931717654333,"050 Amanda Turnpike, North Lynn, IL 77652",Pattonborough,WY,95540
+29,Harris Group,Healthcare,0.15857863249393472,"135 Michelle Parkways, New Geoffrey, NC 91880",Kingfort,OK,75327
+30,Ray-Hicks,Services,0.15979831534708955,"USNV Smith, FPO AP 31022",Port Theresaburgh,PA,28839
+31,Yates PLC,Entertainment,0.2808050539504102,"94859 Ward View Apt. 535, Port Clarenceborough, WY 97460",Rogersmouth,FL,10059
+32,Francis and Sons,Food,0.010835143257820888,"3819 Richard Station, Martinezbury, ND 50607",South Steven,AL,44852
+33,Stone-Rogers,Entertainment,0.27691269412451075,"367 Williams Lights Apt. 092, New Raymondville, PW 12241",Davisstad,MH,40946
+34,"Rosario, Martin and Barron",Services,0.11568077245025894,"19718 Kim Groves, North Mariaview, MI 21215",Andreaview,OR,36219
+35,Barnes-Snyder,Travel,0.36215718898560506,"299 Robert Mission, Christinahaven, NE 82454",Lake Kevin,FM,43171
+36,Phelps-Martin,Online,0.3630389663956366,"938 Brown Canyon, Alexandrachester, MH 67003",Dixontown,GA,62501
+37,Taylor PLC,Online,0.4377100393902187,"45252 Sawyer Port Apt. 176, South Jessica, ME 86255",Johnsfurt,TX,05969
+38,Taylor-Case,Retail,0.09707371863150217,"5017 Sanders Port, Yolandachester, WY 84159",Robertbury,GU,05051
+39,Wiggins Inc,Online,0.5126050250772168,"4093 Robert Center Suite 156, Yorkside, SC 56503",West Laurenland,MS,66119
+40,Myers Inc,Online,0.3948606276411514,"4440 Jackson Lodge, Johnsonmouth, PW 51622",North Carriefort,VT,07827
+41,Lucero Ltd,Food,0.0,"525 Connor Mills, Charleshaven, MA 98894",Chadton,MS,32526
+42,Rose-Hicks,Healthcare,0.17619215007139916,"Unit 1572 Box 9994, DPO AE 31629",West Danielle,DC,23134
+43,"Hopkins, Lewis and Morales",Entertainment,0.1594267699137381,"67150 Willis Shoals Apt. 254, Lake Stanley, VA 33807",Harryport,IL,61454
+44,Harrell-Stein,Travel,0.234623366135118,"5023 Sylvia Meadows, Wilsonshire, NM 29531",West Yvetteport,AZ,86175
+45,Parker PLC,Travel,0.24043387059565077,"2082 Miller Spring, South Kendra, WY 93168",Jensenborough,VA,22506
+46,Noble-Reed,Food,0.18744380931708177,"91327 Gill Burgs Suite 414, Aaronville, TX 37444",New Teresa,MS,06921
+47,Mercado and Sons,Food,0.0,"1484 Kirk Tunnel Apt. 079, Smithville, PA 70729",Biancafort,WV,97943
+48,Norman-Shelton,Online,0.7137748533659994,"034 Larson Lock Suite 224, Jacobsburgh, ND 25469",West Richardbury,FM,62082
+49,Morales-Montoya,Travel,0.4056056809066052,"1336 Angela Manors, Lake Samuelberg, NJ 85167",Arthurland,MP,65934
+50,"Avery, Walton and Santiago",Retail,0.12232389141291597,"3336 Knight Street Apt. 268, South Carolfurt, OR 00749",Robertsbury,RI,21236
+51,Herring-Miller,Retail,0.09451059993837137,"7836 Johnson Shore, Jeffreyhaven, KY 25354",Lawrenceberg,HI,47610
+52,Chang Inc,Entertainment,0.2785554074857657,"8016 Green Estate, Patrickfort, AK 52362",West Angelatown,UT,21010
+53,Fisher-Harris,Retail,0.15211224283793384,"USS Kelley, FPO AE 89279",Port Matthew,NC,37056
+54,Smith-Brown,Travel,0.3645215585950057,"58295 Candice Canyon, North Williamborough, MH 22997",Ronniefurt,WI,54449
+55,"Phillips, Allen and Fox",Online,0.4555604466003449,"41908 Cody Drive, Philipbury, NJ 20799",South Tyler,SD,98663
+56,Ramirez Ltd,Travel,0.30895806812552484,"974 Morales Route, Lake Steven, KY 23861",Alyssaport,NH,66257
+57,Long LLC,Services,0.13026615796926738,"106 Simon Turnpike Apt. 701, West Dale, GU 39221",East Deborah,NH,48236
+58,Smith-Williams,Travel,0.2848726716346488,"67059 Michael Light, Stewartburgh, IN 14397",Shafferville,IA,43390
+59,Kirby-Schultz,Online,0.38050917196473194,"31738 Joseph Street Apt. 001, South Debraside, PR 34644",West Emily,SD,17443
+60,Lewis-Wolf,Retail,0.21337700968670648,"USNV Stephens, FPO AP 04474",Port Rachel,AK,27562
+61,Lucas Group,Healthcare,0.10935567222808619,"PSC 0915, Box 5379, APO AE 79191",South Randyborough,PW,78188
+62,Willis Group,Entertainment,0.0,"26853 White Valleys Apt. 177, Timothybury, AL 01709",South Jennifer,KS,61443
+63,Holt-Smith,Services,0.2155900776529761,"4977 Sydney Spurs, New Hannahbury, PA 28834",Wellsberg,OH,11118
+64,Mcgee Inc,Retail,0.11947361947187748,"PSC 8427, Box 9674, APO AP 80627",Port Jessicamouth,OK,07198
+65,Vincent-Stanley,Entertainment,0.24812912435541026,"2234 Samuel Islands, North Jason, TN 45936",Spencertown,CA,51879
+66,"Welch, Martinez and Horne",Retail,0.06114815469111142,"PSC 9338, Box 3886, APO AP 84015",East Huntertown,SD,70873
+67,Morris and Sons,Services,0.26241127199860137,"55652 Kathleen Stream Apt. 251, Williambury, DC 92351",South Jenniferhaven,NM,53529
+68,Roberson-Contreras,Travel,0.3947526462122858,"646 Myers Islands Apt. 788, Greeneberg, AR 93787",South Kelly,PA,76670
+69,Cole PLC,Online,0.3227122332176391,"7457 Stephens Valley, West Erik, RI 46137",Laurieshire,WY,51086
+70,Wells-Bridges,Healthcare,0.09070522871245351,"609 Sanchez Fort Apt. 608, Edwardmouth, PR 32342",Mosleyhaven,CA,60539
+71,Logan-Cruz,Services,0.05283432654587139,"3204 Hurley Estate, Georgeside, MI 59812",Howellfurt,NE,49239
+72,Nelson-Fritz,Online,0.26203818352110697,"6340 Mata Fords Suite 221, Martinezmouth, AS 26442",Hillbury,FL,30840
+73,Davis Inc,Travel,0.23732827754100347,"676 Frazier Forest, South Ashley, WA 60662",West Joshuaton,OR,45165
+74,Green LLC,Services,0.2362393472382759,"7977 Clark Tunnel, South Loriton, AL 85429",Rachelmouth,AK,82603
+75,Pierce-Ray,Food,0.1453125045376087,"457 Leslie Union Apt. 813, Joshuamouth, NJ 04567",Jonesport,MA,96505
+76,Mack and Sons,Healthcare,0.1013085420097293,"PSC 3843, Box 1459, APO AP 60054",Wandaport,NC,77078
+77,Lee and Sons,Retail,0.1725095786847997,"34949 Jose Oval Apt. 294, Brittanyfurt, WI 73086",West Gilbertview,HI,30241
+78,Wang Ltd,Retail,0.15161782871149584,"49920 Jason Mountains, East Patricia, WV 28902",Dawnberg,MT,38352
+79,Ramirez Inc,Healthcare,0.0,"248 Smith Bypass, Dunnburgh, DE 73591",West Susan,VA,88424
+80,Webster and Sons,Food,0.09319225446739407,"9500 Riley Springs, West Katherine, WY 39869",Johnsonbury,VA,78300
+81,Carroll-Chapman,Online,0.48004095252276824,"6529 Kaufman Course, Lake Nicole, MD 71465",New Hollyhaven,LA,17346
+82,Johnson-Rowe,Travel,0.37542913298135744,"Unit 6693 Box 5174, DPO AP 44763",Port Tamara,IN,31100
+83,Kim Inc,Retail,0.2188913371474643,"55321 Robinson Cove Apt. 785, North Shanebury, TX 53435",Johnsonmouth,ID,21648
+84,Rodriguez and Sons,Online,0.4708303847201064,"88029 Kaitlyn Lodge Apt. 456, North Jennifer, MI 92446",Jenniferfurt,GA,03527
+85,Howe-Byrd,Food,0.0851448207541583,"2889 Jamie Turnpike, Jesusside, OR 09599",New Christineview,HI,32724
+86,"Mueller, Lara and Doyle",Online,0.5070150238316428,"55477 Griffith Junction, Timothyhaven, DE 44975",Paulview,DC,27185
+87,Black-Lyons,Retail,0.097347874075094,"Unit 5179 Box 6291, DPO AP 58782",Petersonborough,GA,84509
+88,Alvarez-Lopez,Entertainment,0.16181253487722821,"685 Jeffery Forks, Josephbury, MD 38809",Hernandezfort,MN,73563
+89,Fuller-Oliver,Travel,0.2836933036056236,"6628 Gutierrez Mountains Suite 697, Lauraberg, MH 22566",Port Samantha,MS,19440
+90,Ryan-Ellison,Entertainment,0.1755097355193551,"79980 Henderson Landing Apt. 259, North Ashleyview, ND 36900",South Julia,RI,56365
+91,Jones LLC,Healthcare,0.0,"927 Elizabeth Motorway, Lake Shannonton, CT 77427",Jamesfurt,OK,86487
+92,Molina PLC,Online,0.38554813292844825,"7253 Webster Gateway Suite 926, Lake Donnamouth, AL 47832",Port Michael,MP,46861
+93,"Wolfe, Roberts and Johnson",Travel,0.22075800790000386,"25409 Aaron Inlet Suite 705, South Lisa, MT 57309",Molinashire,GU,46173
+94,"Hood, Powell and Park",Food,0.019203847036095973,"0763 Williams Landing Suite 374, North Jeffreytown, MP 78184",Wrightport,VI,81340
+95,"Collins, Baker and Johnson",Travel,0.11063853330462142,"8636 Ramirez Stravenue Apt. 503, New Richardhaven, SD 31825",Lake Rachel,AS,78356
+96,"Watson, Johnson and Chavez",Travel,0.32132937073729384,"756 Troy Plain Suite 354, Ashleyshire, LA 96489",North Melissaview,ND,34459
+97,"Smith, Rubio and Nichols",Food,0.05012054753622243,"84060 Cruz Crest, South Jacobbury, MN 75343",East Tracy,KY,14513
+98,"Cantu, Valencia and Ramirez",Healthcare,0.0,"8675 Ayala Haven, Stephanieville, SD 23909",South Alexberg,AR,17501
+99,Odonnell LLC,Travel,0.3659245668432405,"09235 Bray Parkways Apt. 058, New Taylorchester, OR 49141",Port Eric,CA,27786
+100,Kemp Group,Healthcare,0.14375701376265584,"670 Cruz Mount Apt. 175, Port Karenland, AR 11698",Stephenstown,SC,25142

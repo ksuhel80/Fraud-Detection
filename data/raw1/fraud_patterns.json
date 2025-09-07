@@ -1,0 +1,25 @@
+{
+    "high_risk_hours": [
+        0,
+        1,
+        2,
+        3,
+        22,
+        23
+    ],
+    "high_risk_categories": [
+        "Travel",
+        "Entertainment",
+        "Online"
+    ],
+    "high_risk_amount_threshold": 500,
+    "high_risk_locations": [
+        "NV",
+        "FL",
+        "CA"
+    ],
+    "seasonal_patterns": {
+        "holiday_season": 1.5,
+        "summer": 0.8
+    }
+}
