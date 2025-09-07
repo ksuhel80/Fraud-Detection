@@ -9,6 +9,7 @@ from datetime import datetime
 import joblib
 import os
 import yaml
+import logging.config  
 
 class DataPreprocessor:
     def __init__(self, config_path=None):
@@ -166,6 +167,9 @@ class DataPreprocessor:
         """Transform data using the preprocessor"""
         # First apply the preprocessing steps
         df = self.preprocess(df)
+        
+        # Convert all column names to strings to avoid mixed types
+        df.columns = df.columns.astype(str)
         
         # Then apply the column transformations
         return self.preprocessor.transform(df)

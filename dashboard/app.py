@@ -12,7 +12,6 @@ import json
 from datetime import datetime, timedelta
 import time
 import yaml
-import os
 
 # Set page configuration
 st.set_page_config(
@@ -65,10 +64,16 @@ def get_monitoring_data():
 def make_prediction(transaction_data):
     try:
         response = requests.post(PREDICT_ENDPOINT, json=transaction_data)
+        
         if response.status_code == 200:
             return response.json()
         else:
-            return {"error": f"Status code: {response.status_code}", "details": response.text}
+            # Try to get more detailed error information
+            try:
+                error_details = response.json()
+                return {"error": f"Status code: {response.status_code}", "details": error_details}
+            except:
+                return {"error": f"Status code: {response.status_code}", "details": response.text}
     except Exception as e:
         return {"error": str(e)}
 
@@ -121,9 +126,13 @@ def main():
     
     with col3:
         if monitoring_data:
-            last_updated = monitoring_data.get("model_info", {}).get("last_updated", "Unknown")
-            if last_updated != "Unknown":
-                last_updated = datetime.fromisoformat(last_updated).strftime("%Y-%m-%d %H:%M:%S")
+            last_updated = monitoring_data.get("model_info", {}).get("last_updated", "unknown")
+            # Fix: Check if last_updated is a valid datetime string before parsing
+            if last_updated != "unknown":
+                try:
+                    last_updated = datetime.fromisoformat(last_updated).strftime("%Y-%m-%d %H:%M:%S")
+                except ValueError:
+                    last_updated = "Invalid date format"
             st.metric("Last Updated", last_updated)
     
     st.markdown("---")
@@ -142,10 +151,10 @@ def main():
             col1, col2 = st.columns(2)
             
             with col1:
-                transaction_id = st.text_input("Transaction ID", value=f"txn_{int(time.time())}")
-                customer_id = st.text_input("Customer ID", value=f"cust_{np.random.randint(1, 10000)}")
+                transaction_id = st.text_input("Transaction ID", value=f"{int(time.time())}")
+                customer_id = st.text_input("Customer ID", value=f"{np.random.randint(1, 10000)}")
                 transaction_amount = st.number_input("Transaction Amount ($)", min_value=0.01, value=100.0)
-                merchant_id = st.text_input("Merchant ID", value=f"merch_{np.random.randint(1, 1000)}")
+                merchant_id = st.text_input("Merchant ID", value=f"{np.random.randint(1, 1000)}")
                 merchant_category = st.selectbox("Merchant Category", 
                                                 ["retail", "dining", "travel", "entertainment", "gas", "online"])
             
@@ -185,6 +194,9 @@ def main():
                 # Display results
                 if "error" in prediction:
                     st.error(f"Prediction error: {prediction['error']}")
+                    if "details" in prediction:
+                        with st.expander("Error Details"):
+                            st.json(prediction["details"])
                 else:
                     fraud_probability = prediction["fraud_probability"]
                     is_fraud = prediction["is_fraud"]
@@ -324,9 +336,13 @@ def main():
                 st.write(f"**Feature Count:** {model_info.get('feature_count', 0)}")
             
             with col2:
-                last_updated = model_info.get('last_updated', 'Unknown')
-                if last_updated != 'Unknown':
-                    last_updated = datetime.fromisoformat(last_updated).strftime("%Y-%m-%d %H:%M:%S")
+                last_updated = model_info.get('last_updated', 'unknown')
+                # Fix: Check if last_updated is a valid datetime string before parsing
+                if last_updated != "unknown":
+                    try:
+                        last_updated = datetime.fromisoformat(last_updated).strftime("%Y-%m-%d %H:%M:%S")
+                    except ValueError:
+                        last_updated = "Invalid date format"
                 st.write(f"**Last Updated:** {last_updated}")
             
             # System statistics
